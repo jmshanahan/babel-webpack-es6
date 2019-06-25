@@ -1,6 +1,6 @@
 ## Introduction
 
-Webpack and Babel have been setup to work with es9.
+Webpack and Babel have been setup to work with es6.
 Notice in the package.json @babel/register was installed.
 Then we had to call the webpack file webpack.config.babel.js
 
