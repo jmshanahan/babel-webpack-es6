@@ -1,7 +1,7 @@
 {
   "name": "webpack-zero-configuration",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack and Babel have been setup to work with es9. Notice in the package.json @babel/register was installed. Then we had to call the webpack file webpack.config.babel.js",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
@@ -34,5 +34,13 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack-dev-server": "^3.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmshanahan/babel-webpack-es6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmshanahan/babel-webpack-es6/issues"
+  },
+  "homepage": "https://github.com/jmshanahan/babel-webpack-es6#readme"
 }
